@@ -1,0 +1,153 @@
+	
+/*
+		* {
+			border: 1px dashed gray;
+		}
+*/	
+		body
+		{
+			margin-top: 40px;
+			margin-left: 40px;
+			background: #eee;
+		}
+ 
+
+ 
+		#footer
+		{
+			clear:both
+		}
+ 
+		#main
+		{
+			margin: 15px 10px; /* bottom and top margin are 15 - left and irght margin are 10 */
+			padding: 0px 15px;
+			font-family: Georgia;
+		}
+	
+		#bracket, #content
+		{
+			display: inline-block;
+		}
+		
+		#bracket
+		{
+			font-size: 350px;
+			margin: 0;
+			padding: 0;
+		}
+ 
+		
+		#title, #filler, #footer, #navbar
+		{
+			background: #eee;
+			width: 45%;
+		}
+		
+		#content
+		{
+			vertical-align: bottom; /* to be in line with bracket */
+			width: 30%;
+			background: white;
+			border: 2px gray solid;
+			padding: 5px 15px;
+		}
+		
+		#content2
+		{
+			width: 40%;
+			background: white;
+			border: 2px gray solid;
+			padding: 5px 15px;
+		}
+
+		#content:hover, #content2:hover
+		{
+			background: url(bglines.png) repeat;
+		}
+		
+		#title
+		{
+			border-bottom: 2px dashed black;
+		}
+		
+		#navbar
+		{
+			border-top: 2px dashed black;
+			margin: 0px;
+		}
+		 ul.navigation
+		{
+			list-style-type:none;
+		}
+ 
+		#navbar li
+		{
+			display: inline;
+		}
+		
+	#navbar a
+		{
+			text-decoration: none;
+			color: #888888;
+			text-transform: lowercase;
+			/* border: 1px solid gray;
+
+			/* rounded corners
+			border-radius: 2px;
+			padding: 5px 25px;
+			
+			/* gradient
+			background:    -moz-linear-gradient(top, blue 0%, white 100%); /* FF3.6+
+		    background: -webkit-linear-gradient(bottom, gray 1%, white 100%); /* Chrome10+,Safari5.1+
+		    background:      -o-linear-gradient(top, blue 0%, white 100%); /* Opera 11.10+ 
+		    background:     -ms-linear-gradient(top, blue 0%, white 100%); /* IE10+ 
+		    background:         linear-gradient(top, blue 0%, white 100%); /* the standard way	
+		}
+*/
+
+		#navbar a:hover
+		{
+			background: gray;
+			text-decoration: underline;
+		}
+		
+		.medcircle
+		{
+			background: gray;  
+			border-radius: 50%;
+			  width: 75px;
+			  height: 75px; 
+			  /* width and height can be anything, as long as they're equal */
+			border: 3px solid #fff;
+			float: right;
+		}
+		
+		.medcircle:hover
+		{
+			background: blue;  
+			border-radius: 50%;
+			  width: 75px;
+			  height: 75px; 
+			  /* width and height can be anything, as long as they're equal */
+			border: 3px solid black;
+			float: right;
+		}
+		
+ 
+		h1, h1 a, h2
+		{
+			color: black;
+			text-transform:uppercase; 
+			text-decoration: none;
+		}
+ 
+		h2
+		{
+		
+		}	
+		h3
+		{
+			text-transform:uppercase;
+			color: gray;
+		}
