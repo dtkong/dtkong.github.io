@@ -1,9 +1,4 @@
-	
-/*
-		* {
-			border: 1px dashed gray;
-		}
-*/	
+
 		body
 		{
 			margin-top: 40px;
@@ -12,7 +7,6 @@
 		}
  
 
- 
 		#footer
 		{
 			clear:both
@@ -20,22 +14,16 @@
  
 		#main
 		{
-			margin: 15px 10px; /* bottom and top margin are 15 - left and irght margin are 10 */
+			margin: 15px 10px; /* bottom and top margin are 15 - left and right margin are 10 */
 			padding: 0px 15px;
 			font-family: Georgia;
 		}
 	
-		#bracket, #content
+		#content
 		{
 			display: inline-block;
 		}
 		
-		#bracket
-		{
-			font-size: 350px;
-			margin: 0;
-			padding: 0;
-		}
  
 		
 		#title, #filler, #footer, #navbar
@@ -46,7 +34,7 @@
 		
 		#content
 		{
-			vertical-align: bottom; /* to be in line with bracket */
+			vertical-align: bottom; 
 			width: 30%;
 			background: white;
 			border: 2px gray solid;
@@ -86,7 +74,7 @@
 			display: inline;
 		}
 		
-	#navbar a
+		#navbar a
 		{
 			text-decoration: none;
 			color: #888888;
@@ -105,10 +93,9 @@
 		    background:         linear-gradient(top, blue 0%, white 100%); /* the standard way	
 		}
 */
-
-		#navbar a:hover
+		}
+		a:hover, #navbar a:hover
 		{
-			background: gray;
 			text-decoration: underline;
 		}
 		
@@ -125,27 +112,29 @@
 		
 		.medcircle:hover
 		{
-			background: blue;  
+			background: #000080;  
 			border-radius: 50%;
 			  width: 75px;
 			  height: 75px; 
 			  /* width and height can be anything, as long as they're equal */
-			border: 3px solid black;
+			border: 3px solid #fff;
 			float: right;
 		}
 		
  
-		h1, h1 a, h2
+		h1, h2
 		{
 			color: black;
 			text-transform:uppercase; 
 			text-decoration: none;
 		}
- 
-		h2
+
+		h1 a, a
 		{
-		
-		}	
+			color:#000080;
+			text-decoration: none;
+		}
+ 
 		h3
 		{
 			text-transform:uppercase;
